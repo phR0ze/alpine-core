@@ -5,6 +5,7 @@ Alpine container layered on top of alpine-base with more utilities
 https://pkgs.alpinelinux.org/packages
 * alpine-base apps +
 * coreutils - 1.05 MB
+* jq - 552 kB
 
 ## Build
 ```bash
@@ -20,5 +21,8 @@ $ docker pull phr0ze/core
 
 ## Update in dockerhub
 ```bash
-$ docker push phr0ze/core:tagname
+$ docker tag core:3.9 phr0ze/core:3.9
+$ docker push phr0ze/core:3.9
+$ docker tag core:3.9 phr0ze/core:latest
+$ docker push phr0ze/core:latest
 ```
