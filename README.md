@@ -5,13 +5,16 @@ alpine-core
 
 Alpine container layered on top of `phr0ze/alpine-base` with more utilities
 
-**Docker Image Size: 13MB**
+**Docker Image Size: 14.5MB**
 
 ## Apps
 https://pkgs.alpinelinux.org/packages
 * alpine-base apps +
-* coreutils - 1.05 MB
-* jq - 552 kB
+
+| Package                   | Size      | Installed | Description
+| ------------------------- | --------- | --------- | ------------------------------------------
+| `coreutils`               | 504.87 kB | 1.07 MB   | The basic file, shell and text manipulation utilities
+| `jq`                      | 230.18 kB | 560 kB    | A lightweight and flexible command-line JSON processor
 
 ## Build
 ```bash
