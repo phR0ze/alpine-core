@@ -3,7 +3,7 @@ alpine-core
 [![build-badge](https://github.com/phR0ze/alpine-core/workflows/build/badge.svg)](https://github.com/phR0ze/alpine-core/actions)
 [![docker-badge](https://images.microbadger.com/badges/version/phr0ze/alpine-core.svg)](https://microbadger.com/images/phr0ze/alpine-core)
 
-Alpine container layered on top of alpine-base with more utilities
+Alpine container layered on top of `phr0ze/alpine-base` with more utilities
 
 **Docker Image Size: 13MB**
 
